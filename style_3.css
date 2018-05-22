@@ -1,0 +1,38 @@
+html{
+    font-family:"Microsoft Yahei";
+    line-height: 40px;
+}
+.span1{
+    font-weight:bold;
+}
+.span2{
+    font-weight:bold;
+}
+#title{
+    background-color: brown;
+    height: 50px;
+    margin:0;
+}
+#title h1{
+    color: white;
+    position: relative;
+    left:15px;
+    margin:0;
+}
+.title{
+    background-color: rgb(106, 107, 106);
+    width:100px;
+    height: 100px;
+    line-height: 100px; 
+    text-align: center; 
+    margin:0;
+    font-size: 17px;        
+    clear: left;
+    display: inline-block;
+}
+p{
+    display: inline-block;
+}
+div{
+    border-bottom: 1px solid rgb(245, 200, 200);
+}

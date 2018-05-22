@@ -1,0 +1,31 @@
+html{
+    font-family:"Microsoft Yahei";
+    line-height: 40px;
+}
+html div{
+    border-bottom: 1px solid black;
+}
+.span1{
+    font-weight:bold;
+}
+.span2{
+    font-weight:bold;
+}
+#title{
+    background-color: rgb(157, 162, 202);
+    background-position: 0%;
+    width: 20%;
+    float: left;
+    height: 1100px;
+    position: relative;
+}
+#clearfix{
+    overflow: hidden;
+}
+h1{
+    color:white;
+    float: right;
+    right:150px;
+    top:50px;
+    position: absolute;
+}
