@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2018.5.23.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <span id="span_logo">logo</span>
+            <span id="span_link"><a href="https://github.com/">Github</a>
+                  <a href="https://github.com/">Register</a>
+                  <a href="https://github.com/">Login</a>
+                </span>
+        </div>
+    </header>
+    <div id="banner">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+    </div>
+    <div id="guide">
+        <div>HOME</div>
+    </div>
+    <div id="content">
+        <div id="content1">
+            This is content1
+        </div>
+        <div id="content2">
+            Maybe content2
+        </div>
+        <div id="content3">
+            content 3
+        </div>
+        <div id="content4">
+            content 4
+        </div>
+        <div id="content5">
+            content 5
+        </div>
+        <div id="content6">
+            content 6
+        </div>
+        <div id="content7">
+                content 7
+        </div>
+    </div>
+    <footer>
+        <div>
+            @2018 lfe.baidu.com
+        </div>
+    </footer>
+</html>
+</body>
