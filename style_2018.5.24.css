@@ -1,0 +1,295 @@
+html{
+    width: 1600px;
+}
+header{
+    height: 990px;
+    background-image:url("C:/Users/Administrator/Desktop/html/image/image1/images/1.jpg");   
+    position: relative;
+}
+header>div{
+    color: white;
+}
+#hello_world{
+    font-size: 62px;
+    position: absolute;
+    left:50%;
+    top:200px;
+    transform:translate(-50%,-50%);
+
+}
+#china{
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    position: absolute;
+    left:50%;
+    top:340px;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+#creat{
+    width: 970px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    position: absolute;
+    left:50%;
+    margin-left:-485px;
+    top:500px;
+}
+#creat1{ 
+    font-size:16px;
+    position: absolute;
+    left:50%;
+    top: 60px;
+    transform:translate(-50%,-50%);
+}
+#free{
+    color:rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    position: absolute;
+    left:50%;
+    top: 90px;
+    transform:translate(-50%,-50%);
+}
+input[value="denis@getcraftwork.com"]{
+    height: 50px;
+    width: 292px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color:white;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    bottom:50px;
+    text-indent:20px;
+}
+input[value="Create your password"]{
+    height: 50px;
+    width: 292px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color:white;
+    display: inline-block;
+    position: absolute;
+    left: 421px;
+    bottom:50px;
+    text-indent:20px;
+}
+header button{
+    width:125px;
+    height: 52px;
+    border: 1px solid white;
+    background-color: #fff;display: inline-block;
+    position: absolute;
+    left: 743px;
+    bottom:50px;
+}
+/*标题结束*/
+#boatloads{
+    height:710px;
+    background-color: white;
+    position: relative;
+}
+#white{
+    height: 90px;
+    background-color: white;
+}
+#boatload1{
+    text-align: center;
+    font-size: 14px;
+}
+#ready_made{
+    position: absolute;
+    font-size: 42px;
+    text-align: center;
+    left: 50%;
+    top:200px;
+    transform:translate(-50%,-50%);
+}
+#content{
+    position: absolute;
+    width: 1040px;
+    height:300px;
+    left: 50%;
+    top: 320px;
+    margin-left:-520px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+#features1,
+#features2,
+#features3,
+#features4{
+    flex:0 0 350px;
+    position: relative;
+}
+#features1 p:nth-of-type(1),
+#features2 p:nth-of-type(1),
+#features3 p:nth-of-type(1),
+#features4 p:nth-of-type(1){
+    position: absolute;
+    font-size: 20px;
+    left:70px;
+}
+#features1 p:nth-of-type(2),
+#features2 p:nth-of-type(2),
+#features3 p:nth-of-type(2),
+#features4 p:nth-of-type(2){
+    position: absolute;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    left: 70px;
+    top:50px;
+}
+#features1 img,
+#features2 img,
+#features3 img,
+#features4 img{
+    position: absolute;
+    top:20px;
+    left:0;
+}
+/*boatloads结束*/
+#support{
+    background-image: url("C:/Users/Administrator/Desktop/html/image/image1/images/6.jpg");
+    height:800px;
+    position: relative;
+}
+#support div:nth-of-type(1){
+    font-size: 42px;
+    color: white;
+    width:400px;
+    position: absolute;
+    top:180px;
+    left:315px;
+}
+#support div:nth-of-type(2){
+    font-size: 18px;
+    color: white;
+    width:400px;
+    position: absolute;
+    top:400px;
+    left:315px;
+}
+#support button{
+    font-size: 12px;
+    color:white;
+    width: 240px;
+    height:60px;
+    background-color: rgba(0, 0, 0,0);
+    position: absolute;
+}
+#support button:hover{
+    background-color: white;
+    color:black;
+}
+#support button:nth-of-type(1){
+    top:560px;
+    left:315px;
+}
+#support button:nth-of-type(2){
+    top:560px;
+    left:600px;
+}
+/*support结束*/
+#products {
+    height:500px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+}
+#products div:nth-of-type(1){
+    line-height: 200px;
+    width:100%;
+    font-size: 42px;
+    text-align: center;
+    height:150px;
+    
+    
+}
+#products1,#products2,#products3{
+    width:270px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+#products1{
+    padding-left: 250px;
+}
+#products3{
+    padding-right: 250px;
+}
+/*products结束*/
+#learn {
+    height:1000px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+#leaf,#bird{
+    display: flex;
+    flex-wrap: wrap;
+}
+#leaf img{
+    padding-left: 320px;
+    padding-right:100px;
+}
+#leaf div{
+    padding-top: 30px;
+    font-size: 20px;
+    width:300px;
+}
+#leaf span,#bird span{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+    width:300px;
+    display:inline-block;
+    padding-top: 50px;
+    line-height:30px;
+}
+#bird  img{
+    padding-left:100px;
+    order: 1;
+}
+#bird div{
+    padding-top: 30px;
+    font-size: 20px;
+    width:300px;
+    padding-left: 320px;
+}
+/*learn结束*/
+#crew {
+    height:1084px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items:center
+}
+#crew div:nth-of-type(1){
+    font-size: 42px;
+    width:100%;
+    text-align: center;
+    padding-top:100px;
+}
+#crew div:nth-of-type(2){
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.7);
+    padding-left: 400px;
+    padding-right: 400px;
+}
+img[src$="12.jpg"],img[src$="14.jpg"]{
+    padding-left: 300px;
+}
+img[src$="13.jpg"],img[src$="15.jpg"]{
+    padding-right: 300px;
+}
+#crew img:hover{
+    cursor: pointer;
+}
+footer{
+    background-image: url("C:/Users/Administrator/Desktop/html/image/image1/images/16.jpg");
+    height: 410px;
+}
