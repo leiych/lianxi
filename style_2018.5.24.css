@@ -3,7 +3,7 @@ html{
 }
 header{
     height: 990px;
-    background-image:url("https://github.com/leiych/lianxi/blob/master/images/1.jpg");   
+    background-image:url("images/1.jpg");   
     position: relative;
 }
 header>div{
@@ -152,7 +152,7 @@ header button{
 }
 /*boatloads结束*/
 #support{
-    background-image: url("https://github.com/leiych/lianxi/blob/master/images/6.jpg");
+    background-image: url("images/6.jpg");
     height:800px;
     position: relative;
 }
@@ -290,6 +290,6 @@ img[src$="13.jpg"],img[src$="15.jpg"]{
     cursor: pointer;
 }
 footer{
-    background-image: url("https://github.com/leiych/lianxi/blob/master/images/16.jpg");
+    background-image: url("images/16.jpg");
     height: 410px;
 }
