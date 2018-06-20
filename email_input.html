@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>email_input</title>
+    <style>
+        #email-sug-wrapper{
+            border:2px black solid;
+            display:none;
+            list-style:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <input id="email-input" type="text">
+        <ul id="email-sug-wrapper" class="email-sug"></ul>
+    </div>
+<script>
+    var wrapper=document.getElementById("email-sug-wrapper");
+    var postfixList = ['163.com', 'gmail.com', '126.com', 'qq.com', '263.net'];
+    function getValue(arr){
+        arr = document.getElementById("email-input").value.trim();  //获取输入
+        return arr;
+    }
+    function example(arr,newNode){
+        if(arr.indexOf("@")!=-1){
+            var arr1=arr.substring(0,arr.indexOf("@"));
+            var arr2=arr.substring(arr.indexOf("@")+1,arr.length);
+            for(i=0;i<postfixList.length;i++){
+                newNode=document.createElement("li");
+                wrapper.appendChild(newNode);
+                if(postfixList[i].indexOf(arr2)==-1){
+                    wrapper.removeChild(wrapper.childNodes[i]);
+                    newNode.innerHTML=arr1+"@"+postfixList[i];
+                }else{
+                    newNode.innerHTML=arr1+"@"+postfixList[i];
+                    wrapper.replaceChild(newNode,wrapper.children[i]);
+                }
+            }
+        }else{
+            for(i=0;i<postfixList.length;i++){
+                newNode=document.createElement("li");
+                wrapper.appendChild(newNode);
+                newNode.innerHTML=arr+"@"+postfixList[i];
+                wrapper.replaceChild(newNode,wrapper.children[i]);
+        }
+        }
+    }
+    function hidden(arr){
+        if (typeof arr == "undefined" || arr == null || arr == ""){
+            wrapper.style.display="none";
+        }else{                                                                              //控制赢藏显示
+            wrapper.style.display="block";
+        }
+    }
+    document.getElementById("email-input").oninput=function(){
+        var newNode=new Array();
+        var arr=new String();
+        arr="";
+        arr=getValue(arr);
+        newNode=example(arr,newNode);
+        hidden(arr);
+    }
+</script>
+</body>
+</html>
